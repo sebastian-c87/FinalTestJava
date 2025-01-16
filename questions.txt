@@ -1,0 +1,798 @@
+Jakie są trzy podstawowe zasady programowania obiektowego w Javie?
+Dynamiczność, polimorfizm, niezależność.
+Dziedziczenie, hermetyzacja, rozproszoność.
+Hermetyzacja, polimorfizm, dziedziczenie.
+Hermetyzacja, niezawodność, niezależność.
+c
+Czym charakteryzuje się hermetyzacja w Javie?
+Możliwością posługiwania się pewnym zbiorem akcji za pomocą jednego interfejsu.
+Umożliwieniem otrzymywania pewnych właściwości obiektu przez inny obiekt.
+Zapobieganiem przypadkowym interferencjom z zewnętrznym kodem oraz niepoprawnemu użyciu danych (tzw. czarna skrzynka).
+Ograniczeniem działania aplikacji do środowiska wykonywania Javy.
+c
+Czym charakteryzuje się polimorfizm w Javie?
+Możliwością posługiwania się pewnym zbiorem akcji za pomocą jednego interfejsu.
+Umożliwieniem otrzymywania pewnych właściwości obiektu przez inny obiekt.
+Zapobieganiem przypadkowym interferencjom z zewnętrznym kodem.
+Ograniczeniem działania aplikacji do środowiska wykonywania Javy.
+a
+Czym charakteryzuje się proces dziedziczenia w Javie?
+Możliwością posługiwania się pewnym zbiorem akcji za pomocą jednego interfejsu.
+Umożliwieniem otrzymywania pewnych właściwości obiektu przez inny obiekt.
+Zapobieganiem przypadkowym interferencjom z zewnętrznym kodem.
+Ograniczeniem działania aplikacji do środowiska wykonywania Javy.
+b
+Czym jest maszyna wirtualna Javy (JVM)?
+Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.
+Środowiskiem uruchamiającym aplikacje napisane w Javie.
+Narzędziem dla programistów pozwalającym na tworzenie programów.
+Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu.
+a
+Czym jest Java Runtime Environment (JRE)?
+Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.
+Środowiskiem uruchamiającym aplikacje napisane w Javie.
+Narzędziem dla programistów pozwalającym na tworzenie programów.
+Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu.
+b
+Czym jest Java Development Kit (JDK)?
+Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie programów skompilowanych do postaci kodu bajtowego Javy.
+Środowiskiem uruchamiającym aplikacje napisane w Javie.
+Narzędziem dla programistów pozwalającym na tworzenie programów.
+Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu.
+c
+Czym jest Garbage Collector?
+Środowiskiem zapewniającym przenośność Javy.
+Środowiskiem uruchamiającym aplikacje napisane w Javie.
+Narzędziem dla programistów.
+Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią i jej zwalnianie w przypadku nieużywania zasobu.
+d
+Czym jest kompilator JIT (just-in-time)?
+Narzędziem odpowiadającym za automatyczne zarządzanie pamięcią.
+Środowiskiem uruchamiającym aplikacje napisane w Javie.
+Środowiskiem zapewniającym przenośność Javy poprzez wykonywanie bajt-kodu.
+Częścią maszyny wirtualnej Javy umożliwiającą szybszą kompilację wybranych fragmentów kodu.
+d
+Dlaczego JAVA jest określana jako język przenośny?
+Ponieważ programy Java mogą być wykonywane w dowolnych środowiskach, jeśli tylko istnieje w nich maszyna wirtualna Javy.
+Ponieważ programy Java można pisać na urządzenie które nosimy.
+Ponieważ programy Java mogą być łatwo przepisane na C#.
+Ponieważ programy Java „przenosimy” z pliku .java do pliku .class.
+a
+Jakie rozszerzenie posiadają pliki źródłowe programów napisanych w języku Java?
+.java
+.class
+.jar
+.exe
+a
+Po skompilowaniu pliku źródłowego kod bajtowy zostaje umieszczony w pliku o jakim rozszerzeniu?
+.jar
+.exe
+.class
+.java
+c
+Od wywołania jakiej metody zaczyna się działanie wszystkich programów w języku Java?
+println()
+run()
+start()
+main()
+d
+W języku Java wyróżniamy dwa podstawowe typy danych, jakie?
+Obiektowe i nie obiektowe.
+Podstawowe i elementarne.
+Podstawowe i prymitywne.
+Proste i elementarne.
+a
+Jaki typ całkowity w języku Java składa się z 32 bitów reprezentacji?
+byte
+short
+int
+long
+c
+Jaki typ całkowity w języku Java składa się z 64 bitów reprezentacji?
+byte
+short
+int
+long
+d
+Jaki typ zmiennoprzecinkowy w języku Java składa się z 32 bitów reprezentacji?
+float
+double
+char
+byte
+a
+Jaki typ zmiennoprzecinkowy w języku Java składa się z 64 bitów reprezentacji?
+float
+double
+char
+byte
+b
+Jakie działanie ma sekwencja znaków: \n ?
+Powrót karetki.
+Nowy wiersz.
+Umieszcza tabulator.
+Realizuje cofanie.
+b
+Jakie działanie ma operator arytmetyczny: % ?
+Obliczenie wartości procentowej.
+Dzielenie.
+Wyliczenie reszty z odejmowania.
+Modulo.
+d
+Jakie znaczenie ma operator logiczny: & ?
+AND (iloczyn logiczny).
+OR (suma logiczna).
+XOR (różnica symetryczna).
+NOT (negacja).
+a
+Przypisanie wartości jednego typu prostego do drugiego odbywa się automatycznie kiedy:
+Typy są zgodne.
+Zakres typu docelowego jest większy.
+Typy są zgodne i zakres typu docelowego jest mniejszy.
+Typy są zgodne i zakres typu docelowego jest większy.
+d
+W jakim kodzie są zapisywane znaki (char) w Javie?
+Unicode
+ASCII
+ISO 8859
+Windows-1250
+a
+Kiedy stosujemy rzutowanie?
+Podczas konwersji typów, które nie są zgodne lub gdy zachodzi konwersja zawężająca.
+Podczas inkrementacji.
+Podczas przypisania automatycznego.
+Podczas automatycznego opakowywania i wypakowywania.
+a
+Jakiego typu może być wyrażenie sterujące instrukcją switch ?
+byte, short, int, double, char, enum, String.
+int, enum, String.
+byte, short, int, char, enum, String.
+byte, short, int, char, enum.
+c
+Przykładem jakiej pętli jest ten kod: for(;;){ i++};
+Pętli nieskończonej.
+Pętli foreach.
+Pętli bez ciała.
+Pętli rozszerzonej.
+a
+Jakie jest zastosowanie instrukcji continue w pętlach?
+Natychmiastowe przerwanie pętli.
+Jako formy goto .
+Zapewnienie iteracji po wszystkich elementach kolekcji.
+Wymuszenie wcześniejszej iteracji pętli.
+d
+Jak działa instrukcja break z etykietą?
+Powoduje natychmiastowe przerwanie pętli.
+Drukuje na konsoli jakąś wiadomość.
+Powoduje przekazanie sterowania na koniec bloku oznaczonego etykietą.
+Powoduje przekazanie sterowania w dowolne miejsce kodu.
+c
+Czym jest referencja obiektu?
+Definicją obiektu.
+Wartością obiektu.
+Adresem obiektu utworzonego w pamięci.
+Kopią obiektu.
+c
+Co oznacza określenie void przy deklaracji metody?
+Metodę można wywołać bez utworzenia obiektu jej klasy.
+Metoda nie ma żadnych parametrów.
+Metoda nic nie zwraca.
+Metoda zwraca dowolny typ.
+c
+Co oznacza określenie static przy deklaracji metody?
+Metodę można wywołać bez utworzenia obiektu jej klasy.
+Metoda nic nie zwraca.
+Metoda nie może być zmieniona w klasie pochodnej.
+Metoda nie ma ciała.
+a
+Co oznacza określenie final przy deklaracji metody?
+Metodę można wywołać bez utworzenie obiektu jej klasy.
+Metoda nic nie zwraca.
+Metoda nie może być zmieniona w klasie pochodnej.
+Metoda nie ma ciała.
+c
+Jakie jest zadanie konstruktora?
+Inicjalizacja obiektu podczas jego tworzenia.
+Deklaracja zmiennych.
+Deklaracja metod.
+Odzyskanie pamięci.
+a
+W jaki sposób metoda musi kończyć swoje działanie, jeśli zwraca wartość?
+Instrukcją wypisującą tę wartość na konsolę.
+Instrukcją return.
+Instrukcją break.
+Instrukcją zapisującą zwracaną wartość do zmiennej.
+b
+Jeśli nie utworzymy konstruktora danej klasy to…?
+i tak będziemy mogli skorzystać z domyślnego.
+klasa będzie abstrakcyjna.
+będziemy mieli do czynienia z interfejsem.
+kompilator zgłosi nam błąd.
+a
+Od jakiej wartości rozpoczynają się indeksy tablic w Javie?
+Od 1 (jeden).
+Od 0 (zera).
+Od wartości którą sami zadeklarujemy.
+Od zera przy tablicach jednoelementowych i od zera i jeden przy dwuelementowych.
+b
+Czy można zmienić rozmiar tablicy w Javie?
+Tak, używając metody .add
+Tak, odwołując się do wcześniejszej deklaracji tablicy.
+Nie, tablice w Javie są niezmienne.
+Tak, używając metody .size
+c
+Jaki jest domyślny modyfikator dostępu w Javie?
+public.
+private.
+protected.
+pakietowy (brak słowa kluczowego).
+d
+Na czym polega przeciążanie metod?
+Na deklaracji metod o tej samej nazwie w jednej klasie ale z różnymi parametrami.
+Na własnej implementacji metody z klasy bazowej.
+Na implementacji metody która nigdy nie skończy swojego działania.
+Na implementacji metody która w swoim ciele wywołuje tylko inne metody.
+a
+Na czym polega przesłanianie metod?
+Na deklaracji metod o tej samej nazwie w jednej klasie ale z różnymi parametrami.
+Na własnej implementacji metody z klasy bazowej.
+Na implementacji metody w metodzie.
+Na zakomentowaniu metody.
+b
+Czym się różni operator == od metody equals()?
+Niczym, jeden i drugi w ten sam sposób porównuje obiekty.
+Metoda equals() porównuje referencje, a operator == porównuje wartość.
+Metoda equals() porównuje wartość, a operator == porównuje referencje.
+Żadna z powyższych odpowiedzi nie jest prawidłowa.
+c
+Do czego służy adnotacja @Override ?
+Do niczego szczególnego, jest informacją dla nas.
+Informuje o przeciążeniu metody.
+Wskazuje wykorzystanie przestarzałej/niewspieranej metody.
+Jest informacją dla kompilatora, że metoda przesłania inną metodę.
+d
+Począwszy od JDK5 możemy implementować metody ze zmienną liczbą argumentów, w jaki sposób to robimy?
+Listę argumentów o zmiennej długości oznaczamy za pomocą trzech kropek (…).
+Listę argumentów o zmiennej długości oznaczamy za pomocą trzech przecinków (,,,).
+W argumentach umieszczamy tablicę.
+Tworzymy wiele przeciążonych metod z różnymi liczbami argumentów.
+a
+Jakiego słowa kluczowego musimy użyć żebyśmy mogli dziedziczyć po klasie bazowej?
+implements
+extends
+throws
+import
+b
+Po ilu klasach może dziedziczyć klasa pochodna w Javie?
+Po jednej.
+Po dwóch.
+Po trzech.
+Po dowolnej liczbie.
+a
+Do czego służy słowo kluczowe super w Javie?
+Do określenia, że mamy do czynienia z klasą bazową dla wszystkich innych klas.
+Pozwala odwoływać się do metod i konstruktorów klasy bazowej.
+Pozwala tworzyć metody i zmienne których nie można zmienić.
+Do określenia, że mamy do czynienia ze szczególnie ważnym kodem.
+b
+Czym charakteryzuje się metoda abstrakcyjna?
+Jest oznaczona modyfikatorem abstract , nie posiada ciała, klasa pochodna musi ją przesłonić, może mieć parametry.
+Jest oznaczona modyfikatorem abstract , nie posiada ciała, klasa pochodna musi ją przesłonić, nie może przyjmować parametrów.
+Jest oznaczona modyfikatorem abstract , nie posiada ciała, klasa pochodna musi ją przesłonić, może mieć parametry, nie może określać typu zwracanego.
+Jest oznaczona modyfikatorem abstract , nie posiada ciała, klasa pochodna musi ją przesłonić, nie może przyjmować parametrów, nie określa typu zwracanego.
+a
+Czym charakteryzuje się klasa abstrakcyjna?
+Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, może ale nie musi zawierać metodę abstrakcyjną.
+Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, musi zawierać metodę abstrakcyjną.
+Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, musi zawierać metodę abstrakcyjną i nie może mieć innych metod.
+Jest oznaczona modyfikatorem abstract, nie można utworzyć obiektu takiej klasy, może ale nie musi zawierać metodę abstrakcyjną, nie można w niej definiować innych metod.
+a
+Co musi zrobić „zwykła” klasa która dziedziczy po klasie abstrakcyjnej?
+Nic konkretnego.
+Musi dostarczyć implementacji wszystkich metod abstrakcyjnej klasy bazowej.
+Musi dostarczyć implementacji abstrakcyjnych metod abstrakcyjnej klasy bazowej.
+Musi również być abstrakcyjna.
+c
+Co oznacza słowo final przed deklaracją klasy?
+Informuje, że żadna klasa nie może dziedziczyć po tej klasie.
+Informuje, że żadna klasa nie może dziedziczyć po tej klasie, a wszystkie metody są final.
+Informuje, że wszystkie metody w tej klasie są final.
+Informuje innych programistów, że jesteśmy zadowoleni z kształtu tej klasy.
+a
+Co się wydarzy jeśli zmienną składową poprzedzimy słowem kluczowym final ?
+Nie możemy nadać jej wartości.
+Wartość tej zmiennej nie może zostać zmieniona podczas działania programu.
+Nie możemy jej użyć w innej metodzie niż takiej z oznaczeniem final .
+Nazwę tej zmiennej trzeba napisać wielkimi literami, inaczej błąd.
+b
+Po jakiej klasie dziedziczą wszystkie inne klasy w Javie?
+String
+Object
+Throwable
+Number
+b
+Czy klasa bazowa ma dostęp do składowych klasy pochodnej? A na odwrót?
+Tak, klasa bazowa zna implementacje klas pochodnych. Tak, klasa pochodna ma dostęp do wszystkich składowych.
+Nie, klasa bazowa nie zna klas pochodnych. Tak, klasa pochodna ma dostęp do wszystkich składowych klasy bazowej.
+Nie, klasa bazowa nie zna klas pochodnych. Tak, klasa pochodna ma dostęp do wszystkich składowych klasy bazowej oprócz private.
+Nie, klasa bazowa nie zna klas pochodnych. Nie, klasa pochodna nie ma dostępu do składowych bazowej.
+c
+W jaki sposób możemy uniemożliwić klasie pochodnej dostęp do składowej klasy bazowej?
+Deklarując składową klasy bazowej jako static.
+Deklarując składową jako final.
+Deklarując składową bez modyfikatora dostępu.
+Deklarując składową jako private.
+d
+Wskaż właściwą kolejność modyfikatorów dostępu od tych najmniej dostępnych do tych najszerzej dostępnych.
+private, protected, domyślna (package), public.
+private, domyślna (package), protected, public.
+private, protected, public, domyślna (package).
+public, domyślna (package), protected, private.
+b
+Który z pakietów jest automatycznie importowany do każdego programu napisanego w języku Java?
+java.io
+java.net
+java.lang
+java.util
+c
+Z ilu interfejsów maksymalnie może korzystać pojedyncza klasa?
+Z jednego.
+Z dwóch.
+Z trzech.
+Z dowolnej liczby.
+d
+Jakiego słowa kluczowego musimy użyć, żebyśmy mogli skorzystać w klasie z interfejsu?
+implements
+extends
+throws
+import
+a
+Zmienne w interfejsach są domyślnie zadeklarowane jako?
+private, static, final
+public, static, final
+public, static
+private, static
+b
+Jakiego słowa kluczowego musimy użyć, żebyśmy mogli dziedziczyć w interfejsie po innym interfejsie?
+implements
+extends
+throws
+import
+b
+Od JDK8 możemy definiować metody statyczne w interfejsach, jak ją wywołujemy?
+Podając samą nazwę metody.
+Podając nazwę interfejsu, kropkę oraz nazwę metody.
+Poprzez utworzenie instancji interfejsu.
+Nie można wywołać takiej metody.
+b
+Od JDK8 możemy definiować metody domyślne w interfejsach, jakim słowem kluczowym musimy poprzedzić ich nazwę?
+final
+requires
+super
+default
+d
+Po jakiej klasie dziedziczą wszystkie inne klasy wyjątków w Javie?
+Exception
+Error
+Throwable
+IOException
+c
+Jakie dwie klasy dziedziczą bezpośrednio po klasie Throwable?
+Exception i RuntimeException
+Error i Exception
+Exception i VirtualMachineError
+Exception i IOException
+b
+Wyjątki w Javie możemy podzielić na te które musimy obsłużyć i na te których nie musimy. Którego z poniższych wyjątków nie musimy obsługiwać?
+IOException
+ClassNotFoundException
+StackOverFlowError
+InterruptedException
+c
+Czy któryś z poniższych bloków obsługi wyjątków jest obowiązkowy?
+catch
+finally
+try
+nie ma takiego, wszystkie są opcjonalne
+c
+Ile bloków catch możemy użyć z jedną instrukcją try ?
+Jeden.
+Dwa.
+Trzy.
+Nieskończenie wiele.
+d
+W jakim bloku umieścimy kod który chcemy żeby się wykonał niezależnie od tego czy wyjątek zostanie wyrzucony czy nie?
+catch
+finally
+final
+throw
+b
+Począwszy od JDK7 jedna klauzula catch może przechwycić wiele wyjątków, aby to zrobić wyposażamy ją w listę wyjątków rozdzielonych jakim operatorem?
+AND
+OR
+XOR
+NOT
+b
+Gdy chcemy oznaczyć że jakaś metoda może wygenerować wyjątek ale go nie obsługuje powinniśmy dodać do jej deklaracji klauzulę:
+throw
+extends
+throws
+try
+c
+Jaka jest różnica pomiędzy throw a throws?
+throw używamy w sygnaturze metody, a throws w ciele metody.
+throw używamy w ciele metody, a throws w sygnaturze metody.
+działanie jest takie samo ale throw dotyczy pojedynczego wyjątku a throws wielu.
+żadna z powyższych odpowiedzi nie jest prawidłowa.
+b
+Java zapewnia możliwość tworzenia własnych wyjątków, w jaki sposób możemy to zrobić?
+Definiując klasę dziedziczącą po klasie Exception
+Definiując klasę dziedziczącą po klasie Error
+Definiując klasę dziedziczącą po klasie AssertionError
+Definiując klasę dziedziczącą po klasie InternalError
+a
+Czy kod pisany przez nas powinien obsługiwać wyjątki typu Error?
+Tak
+Nie
+Nie, oprócz tych zdefiniowanych w klasie VirtualMachineError
+Nie, oprócz tych zdefiniowanych w klasie OutOfMemoryError
+b
+Jaki wyjątek zostanie wyrzucony jeśli przekroczymy zakres tablicy?
+ArithmeticException
+ArrayStoreException
+IllegalArgumentException
+ArrayIndexOutOfBoundsException
+d
+Jaki wyjątek zostanie wyrzucony jeśli spróbujemy przypisać elementowi tablicy wartość lub obiekt niezgodnego typu?
+ArithmeticException
+ArrayStoreException
+IllegalArgumentException
+ArrayIndexOutOfBoundsException
+b
+W języku Java są zdefiniowane dwa typy strumieni wejścia-wyjścia, ich nazwy to?
+bajtowe i bitowe
+bajtowe i znakowe
+bitowe i znakowe
+charowe i Stringowe
+b
+Do wersji JDK7 musieliśmy samemu zamknąć zasób by uchronić się przed wyciekami. W jaki sposób najlepiej to zrobić?
+Poprzez wywołanie metody close() w bloku finally
+Poprzez wywołanie metody reset() w bloku finally
+Poprzez wywołanie metody available() w bloku finally
+Poprzez wywołanie metody flush() w bloku finally
+a
+Od JDK7 wprowadzona została procedura automatycznego zarządzania zasobami..., w jaki sposób używamy procedury?
+Modyfikując blok catch o nawiasy okrągłe...
+Modyfikując blok finally o nawiasy okrągłe...
+Modyfikując blok try o nawiasy okrągłe...
+Modyfikując blok try o nawiasy kwadratowe...
+c
+Jaką wartość zwraca metoda read() klasy InputStream, gdy zostanie podjęta próba odczytu danych po dotarciu do końca strumienia?
+1
+0
+-1
+null
+c
+Jakim typem strumienia jest System.out?
+ObjectOutputStream
+FileOutputStream
+InputStream
+OutputStream
+d
+Java umożliwia kilka sposobów tworzenia wątków, które dwa z poniższych na to pozwalają?
+Implementacja interfejsu Run lub utworzenie klasy pochodnej po klasie Thread
+Implementacja interfejsu Runnable lub utworzenie klasy pochodnej po klasie Object
+Implementacja interfejsu Run lub utworzenie klasy pochodnej po klasie Object
+Implementacja interfejsu Runnable lub utworzenie klasy pochodnej po klasie Thread
+d
+Interfejs Runnable posiada jedną metodę, którą musimy zaimplementować, i jest ona punktem wejścia wątku, jaka to metoda?
+start()
+isAlive()
+run()
+join()
+c
+Implementacja jakich dwóch metod z poniższych pozwoli nam ustalić czy wątek zakończył swoje działanie?
+isAlive() lub join()
+isAlive() lub run()
+join() lub run()
+join() lub getPriority()
+a
+W jaki sposób możemy zapewnić synchronizację dostępu do współdzielonego zasobu?
+używając słowa kluczowego assert
+używając słowa kluczowego final
+używając słowa kluczowego synchronized
+używając słowa kluczowego transient
+c
+Czym jest deadlock?
+Niezsynchronizowanym dostępem do tego samego zasobu.
+Sytuacją kiedy dwa wątki czekają na siebie nawzajem i żaden nie może się zakończyć.
+Sytuacją kiedy wątek nie ma dostępu do procesora.
+Sytuacją kiedy dwa wątki dobrowolnie zatrzymują się.
+b
+Metod wait() i notify() używamy do?
+Komunikacji międzywątkowej.
+Usypiania wątków.
+Tworzenia wątków.
+Ustalania czy dany wątek zakończył swoje działanie.
+a
+Co zwraca metoda isAlive() ?
+Zwraca 1/0 w zależności czy wątek działa.
+Zwraca true/false w zależności czy wątek działa.
+Zwraca Yes/No.
+Zwraca true/null.
+b
+Jaka jest różnica pomiędzy metodą sleep() a metodą wait() ?
+Metoda wait() zatrzymuje działanie wątku na jakiś czas, a sleep() wstrzymuje je na maksymalnie jakiś czas lub do notify()
+Metoda wait() wstrzymuje działanie na maksymalnie jakiś czas, lub do notify(), a sleep() zatrzymuje działanie wątku na dany czas.
+wait() czeka na wciśnięcie klawisza, a sleep() na dany czas.
+Brak poprawnej odpowiedzi.
+b
+Po jakiej klasie bezpośrednio dziedziczą typy wyliczeniowe?
+Object
+Throwable
+Enum
+Character
+c
+Aby utworzyć klasę typów wyliczeniowych słowo class musimy zastąpić słowem …. ?
+super
+volatile
+enum
+final
+c
+Z typami wyliczeniowymi związane jest istotne ograniczenie, jakie?
+Nie możemy stosować dziedziczenia w przypadku klasy typów wyliczeniowych.
+Nie możemy utworzyć konstruktora w enumie.
+Nie możemy implementować interfejsów w enumie.
+Nie możemy definiować metod w enumie.
+a
+Typy opakowujące należą do klas:
+Enum, Double, Long, Integer, Short, Byte, Character, Boolean
+String, Double, Float, Long, Integer, Short, Character, Boolean
+Void, Double, Float, Long, Integer, Short, Byte, Character
+Double, Float, Long, Integer, Short, Byte, Character, Boolean
+d
+Import wszystkich składowych statycznych np.: z klasy Math możemy uzyskać stosując:
+import java.lang.Math.*;
+import static java.lang.Math.:
+import static java.lang.Math.*;
+import static java.lang.Math.!
+c
+Wybierz prawdziwe zdanie dotyczące adnotacji:
+Można je stosować tylko wobec metod.
+Można je stosować tylko wobec metod i klas.
+Można je stosować tylko wobec metod, klas i zmiennych lokalnych.
+Można je stosować przy metodach, klasach, zmiennych lokalnych, polach, konstruktorach, itd.
+d
+Adnotacja @Override informuje nas, że:
+Metoda musi przesłaniać metodę z klasy bazowej.
+Dany element został uznany za przestarzały.
+Wyłącza ostrzeżenia kompilatora.
+Nie dotyczy metod z klasy bazowej.
+a
+Adnotacja @Deprecated informuje nas, że:
+Metoda musi przesłaniać metodę z klasy bazowej.
+Dany element jest uznany za przestarzały i niezalecany w użyciu.
+Wyłącza ostrzeżenia kompilatora.
+Niebezpieczne akcje przy zmiennej liczbie parametrów.
+b
+Typy sparametryzowane (generics) pozwalają na kod, który:
+Jest bezpieczny typowo.
+Może być wielokrotnie wykorzystywany, niezależnie od typu danych.
+Jest niezawodny.
+Wszystkie odpowiedzi powyżej.
+d
+Który z poniższych przykładów mówi, że klasa jest sparametryzowana?
+class Gen(T)
+class Gen[T]
+class Gen<T>
+class Gen"T"
+c
+W celu umożliwienia dopasowania typu dowolnego należy użyć znaku:
+!
+?
+...
+&
+b
+Potoczna nazwa typów sparametryzowanych to:
+enumy
+generics
+characters
+interfejsy
+b
+Czy można ograniczyć typ argumentu wieloznacznego?
+Nie.
+Tak, można określić górne lub dolne ograniczenie.
+Można przekazać listę dozwolonych argumentów.
+Maksymalnie do dwóch elementów.
+b
+Który z poniższych opisów pasuje do kolekcji ArrayList?
+Uporządkowana lista z szybkim wstawianiem w dowolnym miejscu.
+Uporządkowany zbiór.
+Indeksowana lista o dynamicznie zmieniających się rozmiarach.
+Struktura danych klucz–wartość.
+c
+Który z poniższych opisów pasuje do kolekcji LinkedList?
+Uporządkowana lista pozwalająca na szybkie wstawianie i usuwanie elementów w dowolnej lokalizacji.
+Uporządkowany zbiór.
+Indeksowana lista o dynamicznie zmieniających się rozmiarach.
+Struktura danych klucz–wartość.
+a
+Który z poniższych opisów pasuje do kolekcji HashMap?
+Uporządkowana lista z szybkim wstawianiem.
+Uporządkowany zbiór.
+Indeksowana lista o dynamicznie zmieniających się rozmiarach.
+Struktura danych przechowująca pary klucz–wartość.
+d
+Który z poniższych opisów pasuje do kolekcji TreeSet?
+Uporządkowana lista pozwalająca na szybkie wstawianie i usuwanie elementów.
+Uporządkowany zbiór.
+Indeksowana lista o dynamicznie zmieniających się rozmiarach.
+Struktura danych przechowująca pary klucz–wartość.
+b
+Od JDK8 do Javy wprowadzono wyrażenia lambda, żeby z nich skorzystać musimy użyć operatora:
+!
+…
+?
+->
+d
+Skrót SAM (single abstract method) odnosi się do:
+Klasy abstrakcyjnej.
+Typu wyliczeniowego.
+Interfejsu funkcyjnego.
+Klasy abstrakcyjnej z jedną metodą.
+c
+W jakim pakiecie znajdziemy interfejsy funkcyjne do użycia w lambdach?
+java.util.Random
+java.util.Stack
+java.util.ArrayList
+java.util.function
+d
+Wprowadzenie wyrażeń lambda było wstępem do programowania funkcyjnego w Javie, jego rozwinięciem było wprowadzenie strumieni (stream()), które:
+Dotyczą operacji I/O (java.io)
+Odpowiadają za przetwarzanie danych bez ich modyfikowania.
+Związane są z komunikacją sieciową.
+Strumienie plikowe.
+b
+Z JDK8 do Javy zostały wprowadzone wyrażenia lambda, żeby ich używać wykorzystujemy operator:
+!
+…
+?
+->
+d
+SAM (single abstract method) odnosi się do:
+Abstract class
+Enum
+interfejsu funkcyjnego
+klasy abstrakcyjnej z jedną metodą
+c
+W którym pakiecie są interfejsy funkcyjne pod kątem wyrażeń lambda?
+java.util.Random
+java.util.Stack
+java.util.ArrayList
+java.util.function
+d
+Wprowadzenie wyrażeń lambda było jednocześnie wprowadzeniem programowania funkcyjnego w Javie, a jego rozwinięciem były strumienie (stream()), co powinno być rozumiane jako:
+strumienie do I/O (java.io)
+strumienie odpowiedzialne za procesowanie danych bez ich modyfikowania
+strumienie WWW
+strumienie plików
+b
+Wyrażenia lambda „Funkcyjne” można opisać jako:
+akceptujące jeden parametr, zwracają wynik dowolnego typu
+akceptujące dwa parametry tego samego typu, zwracają ten sam typ
+akceptujące jeden parametr, nie zwracają nic
+żadna odpowiedź z powyższych
+a
+Wyrażenia lambda „Predykcyjne” można opisać jako:
+akceptujące jeden parametr, zwracają dowolny typ
+akceptujące dwa parametry tego samego typu, zwracają ten sam typ
+akceptujące jeden parametr, nie zwracają nic
+akceptujące jeden parametr, zwracają boolean
+d
+Wyrażenia lambda „Operacje Binarne” można opisać jako:
+akceptujące jeden parametr, zwracają wynik dowolnego typu
+akceptujące dwa parametry tego samego typu, zwracają wynik tego samego typu
+akceptujące jeden parametr, nie zwracają nic
+akceptujące jeden parametr, zwracają boolean
+b
+Wyrażenia lambda „Konsument” można opisać jako:
+akceptujące jeden parametr, zwracają wynik
+akceptujące dwa parametry tego samego typu, zwracają wynik tego samego typu
+akceptujące jeden parametr, nie zwracają nic
+akceptujące jeden parametr, zwracają boolean
+c
+Domyślny port na którym uruchamia się Spring Boot to:
+8080
+9090
+localhost
+3306
+a
+Klasa w Springu udostępniająca interfejs REST powinna mieć adnotację:
+@Service
+@RestController
+@Controller
+@Repository
+b
+Najlepszą praktyką wstrzykiwania zależności w Springu jest wstrzykiwanie przez:
+konstruktor
+pole
+metodę
+klasę
+a
+Czym jest „Bean” w Springu?
+klasą w Javie
+obiektem zarządzanym przez kontekst Springa
+instancją klasy
+mechanizmem na potrzeby DI
+b
+Domyślny format danych zwracanych przez WWW w Spring to:
+JSON
+Text
+XML
+NULL
+a
+Metoda HTTP służąca do aktualizacji stanu zasobu to:
+PUT
+POST
+GET
+UPDATE
+a
+Metoda HTTP służąca do tworzenia zasobu to:
+OPTION
+POST
+GET
+UPDATE
+b
+Jaki jest domyślny plik wynikowy aplikacji napisanej w Spring Boot?
+war
+ear
+exe
+jar
+d
+Hibernate to:
+klaster
+specyfikacja dostępu do danych
+framework do wdrażania warstwy dostępu do danych
+zbiór interfejsów standardu ORM
+c
+Jak działa strategia generowania kluczy GenerationType.SEQUENCE ?
+inkrementuje id o 1
+inkrementuje id zgodnie z sekwencją
+nie inkrementuje id
+losowo wybiera strategię
+b
+Która z poniższych adnotacji jest zgodna z AOP (Aspect Oriented Programming)?
+@Import
+@Qualifier
+@Configuration
+@Before
+d
+Które z poniższych narzędzi jest używane do zarządzania zależnościami w ramach Spring Boot?
+Maven
+JUnit
+Mockito
+JMeter
+a
+Co oznacza skrót MVC?
+Multi Variable Control
+Multi Variable Compiler
+Model View Compiler
+Model View Controller
+d
+Która z poniższych metod HTTP nie jest idempotentna?
+GET
+PUT
+POST
+DELETE
+c
+Która z poniższych adnotacji umożliwia automatyczną konfigurację Spring Boot?
+@Configuration
+@EnableAutoConfiguration
+@AutoConfiguration
+@SpringConfiguration
+b
+Której z poniższych adnotacji można użyć do wstrzyknięcia wartości właściwości w Spring Beans oraz do klas konfiguracyjnych?
+@Primary
+@Value
+@Import
+@PropertyValue
+b
